@@ -1,0 +1,20 @@
+# example.tfvars
+azure_management_group_id      = "my-management-group-id"
+azure_currency_units           = "10"
+azure_threshold_percent        = "90"
+azure_billing_budget_name      = "azure-root-level-budget"
+azure_contact_emails           = ["your-example-here@example.com"]
+azure_start_date               = "2023-06-01T00:00:00.00Z"
+azure_end_date                 = "2024-06-01T00:00:00.00Z"
+aws_account_id                 = "000000000000"
+aws_currency_code              = "USD"
+aws_currency_units             = "10"
+aws_create_sns_topic           = false
+gcp_project                    = "project-id"
+gcp_billing_project            = "project-id"
+gcp_billing_account            = "000000-000000-000000"
+gcp_currency_code              = "USD"
+gcp_currency_units             = "10"
+gcp_threshold_percent          = "90"
+gcp_billing_budget_name        = "gcp-root-level-budget"
+gcp_email_notification_address = "your-example-here@example.com"
